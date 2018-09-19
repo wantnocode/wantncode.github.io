@@ -1,1 +1,58 @@
-hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		h1{
+			width: 30px;
+			overflow: hidden;
+			white-space:nowrap; 
+
+		}
+	</style>
+</head>
+<body>
+	
+
+
+
+	<h1>欢迎来到我的博客,敬请期待</h1>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		var current = 50 ;
+		var sum = 1
+		var mySetInterval = setInterval(function(){
+			$("h1").width($("h1").width()+1)
+			if($("h1").width() > 420){
+				clearInterval(mySetInterval);
+				var mySetInterval1 = setInterval(function(){
+					$('h1').css({
+						"transform":"translate3d("+ current +"px,"+ current + "px," + current +"px)",
+						
+					})
+					current ++
+					if(current > 300){
+						clearInterval(mySetInterval1);
+
+						var mySetInterval2 = setInterval(function(){
+							if(sum < 0){
+								clearInterval(mySetInterval2);
+							}
+							$('h1').css("opacity",sum)
+							sum = sum - 0.1
+
+						},100);
+					}
+				},30);
+
+			}
+		},10);
+
+		
+
+
+
+	</script>
+</body>
+</html>
