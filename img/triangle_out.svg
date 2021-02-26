@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>资金去向</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="可视化组件V1.0.3" transform="translate(-963.000000, -9917.000000)">
+            <g id="资金去向" transform="translate(963.000000, 9917.000000)">
+                <g>
+                    <polygon id="Triangle-Copy-3" fill="#00B356" transform="translate(11.000000, 5.000000) rotate(90.000000) translate(-11.000000, -5.000000) " points="11 2 16 8 6 8"></polygon>
+                    <polygon id="Triangle-Copy-12" fill="#BEBEBE" transform="translate(3.000000, 5.000000) rotate(-90.000000) translate(-3.000000, -5.000000) " points="3 2 8 8 -2 8"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
