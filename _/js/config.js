@@ -1,1 +1,0 @@
-const img_url_cors = "./"; //当前项目graph部署地址下层img地址 host+port+"/graph_/"	
